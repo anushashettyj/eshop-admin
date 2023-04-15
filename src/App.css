@@ -1,0 +1,35 @@
+.userListEdit, .productListEdit {
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.userListDel, .productListDel {
+    cursor: pointer;
+    color: red;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.listKey {
+    background-color: 'status.await';
+    font-size: '20px';
+    font-weight: 300;
+}
+
+.listVal {
+    background-color: 'status.delivered';
+    font-size: '24px';
+    font-weight: 600
+}
+
+.formError {
+    color: 'red';
+}
