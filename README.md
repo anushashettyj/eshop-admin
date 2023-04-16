@@ -1,16 +1,22 @@
 <!-- GETTING STARTED -->
 <a name="readme-top"></a>
 
+## About
+Manage online shopping app with this admin app which has dashboard that displays user statistics, features to add/manage products and many more.
+
 <p align="center">
+  <h3> Admin UI </h3>
+  <div style="display:flex; align-items: center;">
+  <img src="images/dashboard.png" width="350" height="280" alt="dashboard">
+  <img src="images/dashboardDarkMode.png" height="280" width="350" title="login page">
+  <img src="images/users.png" width="350" height="280" title="login page">
+  <img src="images/usersDarkMode.png" width="350" height="280" alt="dashboard">
+  <img src="images/addUserFormWithValidation.png" width="350" height="280" alt="dashboard">
+  <img src="images/addUserDarkMode.png" width="350" height="280" alt="dashboard">
+  <img src="images/editUser.png" width="350" height="300" alt="dashboard">
+  <img src="images/editUserDarkMode.png" width="350" height="280" alt="dashboard">
   <img src="images/login.png" width="350" title="login page">
-  <img src="images/dashboard.png" width="350" alt="dashboard">
-  <img src="images/dashboardDarkMode.png" width="350" title="login page">
-  <img src="images/users.png" width="350" title="login page">
-  <img src="images/usersDarkMode.png" width="350" alt="dashboard">
-  <img src="images/addUserFormWithValidation.png" width="350" alt="dashboard">
-  <img src="images/addUserDarkMode.png" width="350" alt="dashboard">
-  <img src="images/editUser.png" width="350" alt="dashboard">
-  <img src="images/editUserDarkMode.png" width="350" alt="dashboard">
+  </div>
 </p>
 
 ## Getting Started
