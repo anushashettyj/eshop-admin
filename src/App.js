@@ -34,7 +34,6 @@ function App() {
   const admin = JSON.parse(user || null)?.currentUser?.isAdmin || '';
   const [mode, setMode] = useState("light");
   const theme = useMemo(() => createTheme(getTheme(mode)), [mode]);
-  console.log({admin})
   return (
     <ThemeProvider theme={theme}>
       <Box bgcolor={"secondary.main"} color={"text.primary"}

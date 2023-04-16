@@ -16,10 +16,9 @@ const userSlice = createSlice({
       state.error = false;
     },
     userError: (state, action) => {
-      console.log('---reducers userError--', action.payload)
       state.isFetching = false;
       state.error = true;
-      state.errorMessage = action.payload;
+      state.errorMessage = action.payload.response.data;
     },
     userLogin: (state, action) => {
       state.isFetching= false;
@@ -33,15 +32,12 @@ const userSlice = createSlice({
       state.error = false;
     },
     getAllUsers: (state, action) => {
-      console.log('--reducer-- getAllUsers--', action.payload)
       state.isFetching= false;
       state.error = false;
       state.errorMessage = null;
       state.users = action.payload;
     },
     addUser: (state, action) => {
-      console.log('--reducer-- addUser--', action.payload)
-      console.log('state----', state)
       state.isFetching= false;
       state.error = false;
       state.errorMessage = null;

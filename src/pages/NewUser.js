@@ -128,7 +128,6 @@ const NewUser = () => {
     e.preventDefault();
     const user = {...inputs,
       //img: 'assets/products/product14.jpg',
-      img: image,
       tagline: inputs.tagline || undefined
     }
     console.log('--handleClick--',{user});
@@ -175,7 +174,7 @@ const NewUser = () => {
           bgcolor: 'button.hover',
           color: 'primary.light',
         },
-        '& .MuiFormLabel-root.MuiFormLabel-colorPrimary': {
+        '& .MuiFormLabel-root.MuiFormLabel-colorPrimary.Mui-focused': {
           color: 'primary.light'
         },
         display: 'flex',

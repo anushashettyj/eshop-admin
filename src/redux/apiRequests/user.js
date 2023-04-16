@@ -15,6 +15,7 @@ export const login = async (dispatch, user) => {
     const res = await publicRequest.post('/auth/login', user);
     dispatch(userLogin(res.data));
   } catch (err) {
+    console.log('---api error --', err);
     dispatch(userError(err));
   }
 }
@@ -55,10 +56,8 @@ export const newUser = async (user, dispatch) => {
   dispatch(processUserReq());
   try {
     const res = await userRequest.post('/user/new', user);
-    console.log('---apiRequest newUser -res--', res);
     dispatch(addUser(res.data));
   } catch (err) {
-    console.log('---apiRequest newUser -err--', err);
     dispatch(userError(err));
   }
 }

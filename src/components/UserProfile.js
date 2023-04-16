@@ -36,7 +36,7 @@ const UserProfile = ({user}) => {
       <List sx={{ width: '100%', bgcolor: 'background.paper' }}>
         <ListItem alignItems="flex-start">
           <ListItemAvatar>
-            <Avatar alt={user.alt} src={'../../' + user.avatar} sx={{ width: 56, height: 56, mr:'25px' }}/>
+            <Avatar alt={user.alt} src={'../../' + user.img} sx={{ width: 56, height: 56, mr:'25px' }}/>
           </ListItemAvatar>
           <ListItemText
             primary={user.name}

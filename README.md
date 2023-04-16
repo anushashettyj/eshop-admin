@@ -1,5 +1,18 @@
 <!-- GETTING STARTED -->
 <a name="readme-top"></a>
+
+<p align="center">
+  <img src="images/login.png" width="350" title="login page">
+  <img src="images/dashboard.png" width="350" alt="dashboard">
+  <img src="images/dashboardDarkMode.png" width="350" title="login page">
+  <img src="images/users.png" width="350" title="login page">
+  <img src="images/usersDarkMode.png" width="350" alt="dashboard">
+  <img src="images/addUserFormWithValidation.png" width="350" alt="dashboard">
+  <img src="images/addUserDarkMode.png" width="350" alt="dashboard">
+  <img src="images/editUser.png" width="350" alt="dashboard">
+  <img src="images/editUserDarkMode.png" width="350" alt="dashboard">
+</p>
+
 ## Getting Started
 
 Set up this project locally and get it up and running by following these steps.

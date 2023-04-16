@@ -11,10 +11,18 @@ const Login = () => {
   const { isFetching, error, errorMessage }= useSelector(state => state.user);
   const dispatch = useDispatch();
 
-  const handleLogin = async (e) => {
+  const handleLogin = (e) => {
     e.preventDefault();
-    await login(dispatch, {username, password});
-    error && setShowError(true);
+    login(dispatch, {username, password})
+      .then(() => {
+        setShowError(true);
+        setTimeout(() => {
+          setShowError(false);
+        }, 5000);
+      })
+      .catch(err => {
+        console.log(errorMessage);
+      });
   }
 
   return (
@@ -73,7 +81,7 @@ const Login = () => {
             alignItems: 'center'
           }} onClick={handleLogin}> Login </Button>
         </Box>
-        {showError && <FormLabel  sx={{color: 'red !important'}}>{errorMessage} </FormLabel> }    
+        {showError && <FormLabel  sx={{color: 'red !important'}}>{ error && `Login Failed ! ${errorMessage}` }</FormLabel> }    
       </FormGroup>
     </Box>
   )
