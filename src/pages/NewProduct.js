@@ -210,7 +210,6 @@ const NewProduct = () => {
       size: productSize,
       color: productColor,
       categories: category,
-      img: image,
       inStock,
       active: isActive
     }

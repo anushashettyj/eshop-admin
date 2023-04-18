@@ -319,7 +319,10 @@ export const colors = [
   'blue',
   'purple',
   'pink',
+  'brown',
   'black',
+  'grey',
+  '#6f4b34',
   'white',
   'gold'
 ];
@@ -327,13 +330,22 @@ export const colors = [
 export const categories = [
   'men',
   'women',
-  'summer',
-  'winter',
-  'spring',
+  'casuals',
+  'formals',
+  'partywear',
   'shoes',
-  'accessories',
-  'kids',
-  'jacket',
+  'bags',
+  'clothing',
+  'tshirt',
+  'hoodies',
   'pants',
-  'casuals'
+  'sandals',
+  'sweaters',
+  'boots',
+  'hiking',
+  'sneakers',
+  'flats',
+  'heels',
+  'featured',
+  'bestsellers'
 ];
